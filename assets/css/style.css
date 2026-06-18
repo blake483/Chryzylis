@@ -1014,6 +1014,46 @@ section { position: relative; }
   font-size: 2.1rem;
 }
 
+#journal-featured-slot:not(:empty) {
+  margin-bottom: 24px;
+}
+
+.journal-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 64px;
+}
+
+.journal-page-btn {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--mid);
+  background: var(--warm-white);
+  border: 1px solid var(--rule);
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.journal-page-btn:hover:not(:disabled) {
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.journal-page-btn.active {
+  background: var(--ink);
+  color: var(--warm-white);
+  border-color: var(--ink);
+}
+
+.journal-page-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
 /* ─── POST PAGE ─── */
 .post-hero {
   background: var(--ink);

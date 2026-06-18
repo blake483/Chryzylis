@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "welcoming-our-first-domiciliary-care-partner",
+    "title": "Welcoming our first domiciliary care partner to Chryzylis",
+    "excerpt": "How a 15-year relationship with the local council, and a founder ready for her next chapter, became the acquisition that anchors our healthcare strategy.",
+    "date": "2025-09-12",
+    "dateLabel": "September 2025",
+    "tags": ["Transaction", "Domiciliary Care"],
+    "featured": true,
+    "image": ""
+  },
+  {
+    "slug": "why-we-invest-for-twenty-years",
+    "title": "Why we invest for twenty years, not five",
+    "excerpt": "Most private equity is built around a five-year exit. Here's why that timeline is wrong for the businesses we acquire — and what we do instead.",
+    "date": "2025-07-03",
+    "dateLabel": "July 2025",
+    "tags": ["Reflections"],
+    "featured": false,
+    "image": ""
+  },
+  {
+    "slug": "a-letter-to-owners-thinking-about-retirement",
+    "title": "A letter to owners thinking about retirement",
+    "excerpt": "Blake on the conversations he has most often with founders — and why the hardest part of selling is rarely the price.",
+    "date": "2025-05-21",
+    "dateLabel": "May 2025",
+    "tags": ["Reflections"],
+    "featured": false,
+    "image": ""
+  },
+  {
+    "slug": "building-the-advisory-bench",
+    "title": "Building the advisory bench: finance, law and operations",
+    "excerpt": "Why we partnered with Churchill Taxation and Ellis Jones Solicitors, and how our advisory network shapes every transaction.",
+    "date": "2024-11-08",
+    "dateLabel": "November 2024",
+    "tags": ["Journey"],
+    "featured": false,
+    "image": ""
+  },
+  {
+    "slug": "from-hedge-fund-to-healthcare",
+    "title": "From hedge fund to healthcare: how Chryzylis began",
+    "excerpt": "Blake's path from launching a boutique hedge fund to founding Chryzylis — and why community healthcare became the focus.",
+    "date": "2024-08-15",
+    "dateLabel": "August 2024",
+    "tags": ["Journey"],
+    "featured": false,
+    "image": ""
+  }
+]

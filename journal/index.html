@@ -40,88 +40,13 @@
 <!-- ─── JOURNAL LISTING ─── -->
 <section id="journal-listing">
   <div class="section-inner">
-    <div class="journal-filter-bar reveal">
-      <a href="#" class="journal-filter active">All</a>
-      <a href="#" class="journal-filter">Transactions</a>
-      <a href="#" class="journal-filter">Domiciliary Care</a>
-      <a href="#" class="journal-filter">Dental</a>
-      <a href="#" class="journal-filter">Opticians</a>
-      <a href="#" class="journal-filter">Reflections</a>
-    </div>
+    <div class="journal-filter-bar reveal" id="journal-filter-bar"></div>
 
-    <div class="journal-grid">
+    <div id="journal-featured-slot"></div>
 
-      <a href="welcoming-our-first-domiciliary-care-partner.html" class="journal-card journal-card-featured reveal">
-        <div class="journal-card-media">
-          <div class="journal-card-tag">Transaction</div>
-        </div>
-        <div class="journal-card-body">
-          <div class="journal-card-date">Featured · 2025</div>
-          <div class="journal-card-title">Welcoming our first domiciliary care partner to Chryzylis</div>
-          <p class="journal-card-excerpt">How a 15-year relationship with the local council, and a founder ready for her next chapter, became the acquisition that anchors our healthcare strategy.</p>
-          <span class="journal-card-read">Read the story
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </div>
-      </a>
+    <div class="journal-grid" id="journal-grid"></div>
 
-      <a href="why-we-invest-for-twenty-years.html" class="journal-card reveal reveal-delay-1">
-        <div class="journal-card-media">
-          <div class="journal-card-tag">Reflection</div>
-        </div>
-        <div class="journal-card-body">
-          <div class="journal-card-date">Reflections · 2025</div>
-          <div class="journal-card-title">Why we invest for twenty years, not five</div>
-          <p class="journal-card-excerpt">Most private equity is built around a five-year exit. Here's why that timeline is wrong for the businesses we acquire — and what we do instead.</p>
-          <span class="journal-card-read">Read the story
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </div>
-      </a>
-
-      <a href="a-letter-to-owners-thinking-about-retirement.html" class="journal-card reveal reveal-delay-2">
-        <div class="journal-card-media">
-          <div class="journal-card-tag">Reflection</div>
-        </div>
-        <div class="journal-card-body">
-          <div class="journal-card-date">Reflections · 2025</div>
-          <div class="journal-card-title">A letter to owners thinking about retirement</div>
-          <p class="journal-card-excerpt">Blake on the conversations he has most often with founders — and why the hardest part of selling is rarely the price.</p>
-          <span class="journal-card-read">Read the story
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </div>
-      </a>
-
-      <a href="building-the-advisory-bench.html" class="journal-card reveal reveal-delay-3">
-        <div class="journal-card-media">
-          <div class="journal-card-tag">Journey</div>
-        </div>
-        <div class="journal-card-body">
-          <div class="journal-card-date">Journey · 2024</div>
-          <div class="journal-card-title">Building the advisory bench: finance, law and operations</div>
-          <p class="journal-card-excerpt">Why we partnered with Churchill Taxation and Ellis Jones Solicitors, and how our advisory network shapes every transaction.</p>
-          <span class="journal-card-read">Read the story
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </div>
-      </a>
-
-      <a href="from-hedge-fund-to-healthcare.html" class="journal-card reveal reveal-delay-4">
-        <div class="journal-card-media">
-          <div class="journal-card-tag">Journey</div>
-        </div>
-        <div class="journal-card-body">
-          <div class="journal-card-date">Journey · 2024</div>
-          <div class="journal-card-title">From hedge fund to healthcare: how Chryzylis began</div>
-          <p class="journal-card-excerpt">Blake's path from launching a boutique hedge fund to founding Chryzylis — and why community healthcare became the focus.</p>
-          <span class="journal-card-read">Read the story
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </span>
-        </div>
-      </a>
-
-    </div>
+    <div class="journal-pagination" id="journal-pagination"></div>
   </div>
 </section>
 
@@ -165,5 +90,6 @@
 </footer>
 
 <script src="../assets/js/main.js"></script>
+<script src="journal.js"></script>
 </body>
 </html>
