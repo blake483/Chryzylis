@@ -224,6 +224,7 @@ nav.scrolled {
   background: var(--ink);
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .hero-right::before {
@@ -286,8 +287,13 @@ nav.scrolled {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: right center;
   z-index: 1;
   opacity: 0.85;
+}
+
+@media (max-width: 1024px) {
+  .hero-bg-video { object-position: center; }
 }
 
 /* ─── PAGE HERO (sub-pages) ─── */
